@@ -31,7 +31,7 @@ const listSimpleNumber = function (countSimple){
 
     
     }
-    return console.log(myArry)
+    return myArry
 }
 
-listSimpleNumber(7)
+console.log(listSimpleNumber(process.argv[2]));
